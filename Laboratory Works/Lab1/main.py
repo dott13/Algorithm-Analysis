@@ -85,8 +85,8 @@ MOD = 1000000007
 table = PrettyTable()
 sys.setrecursionlimit(10**6)  
 
-list = [1, 5, 10, 15, 20, 25, 30]
-big_list = [501, 600, 750, 1000, 1500, 2000, 2500, 3000, 4000, 5000, 6000, 8000, 10000, 12500, 15000, 100000]
+list = [5, 7, 10, 12, 15, 17, 20, 22, 25, 27, 30, 32, 35, 37, 40, 42, 45]
+big_list = [501, 631, 794, 1000, 1259, 1585, 1995, 2512, 3162, 3981, 5012, 6310, 7943, 10000, 12589, 15849]
 
 execution_func = {'Recursive': fib_recursion, 'Iterative': fib_iterative, 'Dynamic': fib_dynamic, 'Binet': fib_binet, 'Array': fib_array, 'Matrix': fib_matrix}
 execution_times = {'Recursive': [], 'Iterative': [], 'Dynamic': [], 'Binet': [], 'Array' : [], 'Matrix': []}
